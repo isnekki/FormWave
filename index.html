@@ -11,12 +11,26 @@
     <div class="container">
         <form action="">
             <h1>Please Login</h1>
-            <input type="email" name="Email" id="email" placeholder="Email">
-            <input type="password" name="Password" id="password" placeholder="Password">
-            <input type="submit" value="Login">
+            <div class="credentialsContainer">    
+                <div class="emailContainer">
+                    <label for="email">
+                        <div class="emailSpan"></div>
+                    </label>
+                    <input type="email" name="Email" id="email">
+                </div>
+                <div class="passwordContainer">
+                    <label for="password">
+                        <div class="passwordSpan"></div>
+                    </label>
+                    <input type="password" name="Password" id="password">
+                </div>
+                <input type="submit" value="Login" id="login">
+            </div>
             <div class="formFooter">
-                <h3>Don't have an account?</h3>
-                <a href="http://www.youtube.com">Register</a>
+                <p>
+                    Don't have an account?
+                    <a href="http://www.youtube.com">Register</a>
+                </p>
             </div>
         </form>
     </div>
